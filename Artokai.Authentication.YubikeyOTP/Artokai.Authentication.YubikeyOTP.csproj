@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Arto Kaitosaari</Authors>
+    <Company></Company>
+    <PackageTags>aspnetcore identity yubikey</PackageTags>
+    <Copyright>Copyright © Arto Kaitosaari 2018</Copyright>
+    <Description>ASP.NET Core TokenProvider for Yubikey OTP. Utilizes the YubicoDotNetClient by Yubico for actual token validation.</Description>
+    <NeutralLanguage />
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1.0</FileVersion>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.0.1" />
+    <PackageReference Include="YubicoDotNetClient" Version="1.2.0" />
+  </ItemGroup>
+
+</Project>

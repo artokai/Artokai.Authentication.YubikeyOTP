@@ -18,7 +18,7 @@ namespace Artokai.Authentication.YubikeyOTP
         {
             if (string.IsNullOrEmpty(clientId))
                 throw new ArgumentException("ClientId cannot be null or empty!", "clientId");
-            if (string.IsNullOrEmpty(clientId))
+            if (string.IsNullOrEmpty(apiKey))
                 throw new ArgumentException("ApiKey cannot be null or empty!", "apiKey");
 
             ClientId = clientId;

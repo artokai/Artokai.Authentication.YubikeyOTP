@@ -5,13 +5,15 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Arto Kaitosaari</Authors>
     <Company></Company>
-    <PackageTags>aspnetcore identity yubikey</PackageTags>
+    <PackageTags>aspnetcore authentication mfa yubikey</PackageTags>
     <Copyright>Copyright © Arto Kaitosaari 2018</Copyright>
     <Description>ASP.NET Core TokenProvider for Yubikey OTP. Utilizes the YubicoDotNetClient by Yubico for actual token validation.</Description>
     <NeutralLanguage />
     <AssemblyVersion>0.0.1.0</AssemblyVersion>
-    <FileVersion>0.0.1.0</FileVersion>
-    <Version>0.0.1</Version>
+    <FileVersion>0.0.2.0</FileVersion>
+    <Version>0.0.2</Version>
+    <PackageProjectUrl>https://github.com/artokai/Artokai.Authentication.YubikeyOTP</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/artokai/Artokai.Authentication.YubikeyOTP/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>

@@ -6,13 +6,13 @@ The library utilizes the [YubicoDotNetClient](https://github.com/Yubico/yubico-d
 
 ## What is Yubico OTP?
 
-More information about Yubico OTPs and how they work can be found at Yubico's website at https://developers.yubico.com/OTP/
+More information about Yubico OTPs and how they work can be found at Yubico's website at  [https://developers.yubico.com/OTP/](https://developers.yubico.com/OTP/)
 
 ## Installation and setup
 
 **TODO**
 
-To use this with YubiCloud you will need a free clientId and apiKey from https://upgrade.yubico.com/getapikey
+To use this with YubiCloud you will need a free clientId and apiKey from [https://upgrade.yubico.com/getapikey](https://upgrade.yubico.com/getapikey)
 
 
 ## Usage
@@ -25,8 +25,8 @@ TODO: CODE EXAMPLES
 
 ## Credits
 
-- Arto Kaitosaari &lt;arto.kaitosaari@gmail.com&gt;
+- Arto Kaitosaari (arto.kaitosaari@gmail.com)
 
 ## License
 
-Licensed under the [MIT License](LICENSE)
+Licensed under the [MIT License](https://raw.githubusercontent.com/artokai/Artokai.Authentication.YubikeyOTP/master/LICENSE)
